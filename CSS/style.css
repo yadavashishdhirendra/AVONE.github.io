@@ -145,9 +145,29 @@
 
 /* Media Queries Starts here */
 
+@media screen and (max-width: 1080px) {
+    .Box__Inside__Img {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .Box__Inside__Img {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .AVONE__Row {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 568px) {
     .AVONE__Row {
         flex-direction: column;
+    }
+    .Box__Inside__Img {
+        max-width: 250px;
     }
 }
 
