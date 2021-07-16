@@ -16,6 +16,10 @@
 
 /* Main Row starts here */
 
+.Mansory__Container {
+    max-width: 1200px;
+}
+
 .AVONE__Row {
     display: flex;
     flex-direction: row;
@@ -103,6 +107,7 @@
     color: white;
     padding: 10px 10px 10px 10px;
     font-size: calc(8pt + 0.15vw);
+    font-family: 'Poppins', sans-serif;
 }
 
 .Box__Inside__Img h6 {
@@ -139,6 +144,10 @@
     transform: scale(1.08);
     cursor: pointer;
     padding: 10px 0px 10px 0px;
+}
+
+.underline {
+    border-bottom: 3px solid red;
 }
 
 /* Animation Ends here */
